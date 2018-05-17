@@ -19,3 +19,7 @@ function appendKitten(name) {
   var kitten = [...kittens, name]
   return kitten
 }
+function prependKitten(name) {
+  var kitten = [name, ...kittens]
+  return kitten
+}
